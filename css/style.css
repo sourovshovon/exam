@@ -1,0 +1,96 @@
+@font-face{
+	src:url(../font/lato/Lato-Bold.ttf);
+	font-family: Lato-Bold;
+}
+@font-face{
+	src:url(../font/lato/Lato-Regular.ttf);
+	font-family: Lato-Regular;
+}
+body{
+	font-family: Lato-Regular , Lato-Bold;
+	color: #999999;
+}
+
+/*header start*/
+header{
+	background-color: #f6f9f9;
+	padding: 15px 0;
+}
+.container{
+	margin:0 auto;
+	width: 80%;
+	overflow: hidden;
+}
+.logo{}
+.menu{
+
+}
+.menu ul li a{
+	/*font-family: Lato-Bold;*/
+	font-size: 14px;
+	font-weight: 700; 
+	color: #2d3950 !important;
+	padding: 0 19.5px !important;
+	transition: .3s;
+	
+	
+}
+.menu ul li:last-child a{}
+.menu ul li a:hover{
+	color: #15a4fa !important;
+}
+/*header end*/
+
+/*banner start*/
+.banner{
+	background: url(../images/Strict.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	min-height: 400px;
+	position: relative;
+}
+.banner .row{
+	justify-content: center;
+	margin-top: 100px;
+}
+.b_content{
+	margin-top: 100px;
+	margin-bottom: 400px;
+	text-align: center;
+	/*max-width: 50%;*/
+
+}
+.b_content h1{
+	font-size: 120px;
+	color: #ffffff;
+
+}
+.b_content span{}
+.b_content p{
+	font-size: 20px;
+	color: #ffffff;
+	margin-top: 20px;
+}
+.b_content button{
+	background-color: transparent;
+	border-color: #15a4fa;
+	padding: 15px 40px;
+	margin-top: 60px;
+
+}
+.b_content button:hover{
+	background-color: transparent;
+	color: #f6f9f9;
+	border-color: #15a4fa;
+}
+
+
+.arrow{
+	position: absolute;
+	color: #ffffff;
+	font-size: 30px;
+	left: 50%;
+	bottom:10%;
+}
+/*banner end*/
